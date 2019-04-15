@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nouvelles</string>
+    <string name="keyword">Entrez le mot clé de recherche</string>
+    <string name="Search">Chercher</string>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="emptytextview">"Aucun enregistrement disponible "</string>
+    <string name="btndelete">Effacer</string>
+    <string name="btnsave">"sauvegarder "</string>
+    <string name="lang">Choisissez la langue</string>
+    <string name="menuhelp">Aidez-moi</string>
+    <string name="menuSaved">"Voir les nouvelles sauvegardées "</string>
+    <string name="dialog1">" Nom de l'auteur: Gurdev Singh"</string>
+    <string name="dialog2">Numéro de version de l\'activité: 1.0</string>
+</resources>

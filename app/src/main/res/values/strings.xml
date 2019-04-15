@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">New York Times Artical</string>
+    <string name="keyword">Enter Search Keyword</string>
+    <string name="Search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emptytextview">No records available</string>
+    <string name="btndelete">Delete</string>
+    <string name="btnsave">Save</string>
+    <string name="lang">Choose Language</string>
+    <string name="menuhelp">Help</string>
+    <string name="menuSaved">View Saved News</string>
+
+    <string name="dialog1">Author Name: Gurdev Singh</string>
+    <string name="dialog2">Activity Version Number : 1.0</string>
+    <string name="dialog3">Instructions: Enter the News Article to be searched on the Main Activity. It will show the related headings with the searched title. Click on any heading to view the details. Save the news in the database and can be deleted also</string>
+
+</resources>

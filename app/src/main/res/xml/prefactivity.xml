@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="f1"
+        android:summary="Use French Language"
+        android:title="French Language " />
+</PreferenceScreen>
