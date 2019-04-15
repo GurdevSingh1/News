@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 //Starting Activity
-public class MainActivity extends AppCompatActivity {
+public class MainNewsActivity extends AppCompatActivity {
     EditText et;
     ProgressBar pb;
     Button b;
@@ -57,14 +57,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.d("app  ","button click1");
                 System.out.println("133");
-                AsyncJson aj = new AsyncJson(MainActivity.this);
+                AsyncJson aj = new AsyncJson(MainNewsActivity.this);
                 aj.execute(et.getText().toString());
                 System.out.println("1");
                 Log.d("app  ","button click2");
             }
         });
 
-        sp = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
+        sp = PreferenceManager.getDefaultSharedPreferences(MainNewsActivity.this);
     }
 
     class AsyncJson extends AsyncTask<String,Void, String>
@@ -112,9 +112,9 @@ public class MainActivity extends AppCompatActivity {
                 urlConnection.setRequestMethod("GET");
                 urlConnection.connect();
                 Log.d("STATUS","connected");
-                MainActivity.this.runOnUiThread(new Runnable() {
+                MainNewsActivity.this.runOnUiThread(new Runnable() {
                     public void run() {
-                        Toast.makeText(MainActivity.this,"Connected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainNewsActivity.this,"Connected", Toast.LENGTH_SHORT).show();
                     }
                 });
 

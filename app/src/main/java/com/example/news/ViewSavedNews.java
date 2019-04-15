@@ -34,7 +34,7 @@ public class ViewSavedNews extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent i = new Intent(this, MainActivity.class);
+        Intent i = new Intent(this, MainNewsActivity.class);
         startActivity(i);
     }
 }

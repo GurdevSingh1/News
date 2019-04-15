@@ -15,7 +15,7 @@
         <activity android:name=".ViewSavedNews" android:label="Saved News" />
         <activity android:name=".NewsDetailsActivity" />
         <activity android:name=".PrefOption"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainNewsActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
